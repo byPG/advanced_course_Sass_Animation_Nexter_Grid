@@ -1,0 +1,22 @@
+{
+  "name": "notours",
+  "version": "1.0.0",
+  "description": "Landing page for www",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "Paulina",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "concat": "^1.0.3",
+    "node-sass": "^9.0.0",
+    "postcss-cli": "^11.0.0"
+  },
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.38"
+  }
+}
